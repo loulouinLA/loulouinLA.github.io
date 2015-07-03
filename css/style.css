@@ -1,3 +1,7 @@
+body{font-family: 'Indie Flower', cursive;
+} 
+
+
 #header{
 	background-color:#CC33FF;
 	height:125px;
@@ -13,13 +17,11 @@
 	position:relative;
 	text-align: center;
 	font-size: 95px;
-	font-family: 'Indie Flower', cursive;
-
-
 }
+
 #jumbotron{
 		position:relative;
-		background-image: url("elvis.jpg");
+		background-image: url("../images/elvis.jpg");
 		background-size:contain;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -41,6 +43,20 @@
 	left:20px;
 	z-index:1;
 }
+#mainPageText{
+  position:relative;
+  top:100px;
+  width:325px;
+  margin-left:auto; /*centers the div*/
+  margin-right:auto;
+  text-align:justify;
+}
+
+.horizRule{
+  height:5px;
+  width: 100%;
+  background-color:black;
+}
 
 #footer{
 	margin-top: 200px;
@@ -60,7 +76,6 @@
   -webkit-box-shadow: 0px 1px 3px #0f040f;
   -moz-box-shadow: 0px 1px 3px #0f040f;
   box-shadow: 0px 1px 3px #0f040f;
-  font-family: Georgia;
   color: #704619;
   font-size: 20px;
   background: #34d947;
@@ -86,7 +101,6 @@
   -webkit-box-shadow: 0px 1px 3px #0f040f;
   -moz-box-shadow: 0px 1px 3px #0f040f;
   box-shadow: 0px 1px 3px #0f040f;
-  font-family: Georgia;
   color: #704619;
   font-size: 20px;
   background: #34d947;
@@ -112,7 +126,6 @@
   -webkit-box-shadow: 0px 1px 3px #0f040f;
   -moz-box-shadow: 0px 1px 3px #0f040f;
   box-shadow: 0px 1px 3px #0f040f;
-  font-family: Georgia;
   color: #704619;
   font-size: 20px;
   background: #34d947;
@@ -129,6 +142,10 @@
   background: #3cb0fd;
   text-decoration: none;
 }
+.button{
+  font-family: 'Didact Gothic', sans-serif; /*this references all buttons*/
+
+}
 
 #testButton{
 	position:relative;
@@ -139,7 +156,6 @@
 	left:490px;
 	color:white;
 	font-size:25px;
-	font-family: Century Gothic, CenturyGothic,AppleGothic.sans-serif;
 }
 
 
